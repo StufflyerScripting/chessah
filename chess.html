@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Regular Chess</title>
+  <link rel="stylesheet" href="css/chessboard-1.0.0.min.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    #board {
+      width: 600px; /* Increased board size */
+      margin-bottom: 20px;
+    }
+    #status {
+      font-size: 18px;
+    }
+    #move-history {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .move-history-item {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Regular Chess</h1>
+  <div id="board"></div>
+  <div id="status">Game on!</div>
+
+  <div id="move-history">
+    <h3>Move History</h3>
+    <div id="moves"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/chess.min.js"></script>
+  <script src="js/chessboard-1.0.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

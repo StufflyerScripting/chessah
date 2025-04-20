@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stufflyer's Chess Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+    }
+
+    .button-class {
+      background: linear-gradient(to right, #4CAF50, #45a049);
+      border: none;
+      color: white;
+      padding: 14px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 12px;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .button-class:hover {
+      background: linear-gradient(to right, #43a047, #388e3c);
+      transform: scale(1.05);
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Play Multiple Chess Variants for Free!</h1>
+  <div class="button-container">
+    <a href="chess.html" class="button-class">Chess Against an AI</a>
+    <a href="chess.html" class="button-class">Secret Queen Variant</a>
+  </div>
+</body>
+</html>
